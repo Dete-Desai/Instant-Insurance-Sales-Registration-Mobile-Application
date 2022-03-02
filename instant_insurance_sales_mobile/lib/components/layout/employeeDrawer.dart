@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:instant_insurance_sales_mobile/components/forms/employee/registerEmployee.dart';
 
 class EmployeeDrawer extends StatefulWidget {
-  const EmployeeDrawer({Key? key}) : super(key: key);
+  late EmployeeDrawer employeeDrawer;
 
   @override
   State<StatefulWidget> createState() {
